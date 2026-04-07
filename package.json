@@ -1,0 +1,36 @@
+{
+  "type": "module",
+  "name": "kambaz-node-server-app",
+  "version": "1.0.0",
+  "description": "Node.js JTTP Web Server for the Kambaz application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayushsinha12/kambaz-node-server-app.git"
+  },
+  "keywords": [
+    "Node",
+    "REST",
+    "Server",
+    "HTTP",
+    "Web",
+    "Development"
+  ],
+  "author": "Ayush Sinha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ayushsinha12/kambaz-node-server-app/issues"
+  },
+  "homepage": "https://github.com/ayushsinha12/kambaz-node-server-app#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.0",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0",
+    "uuid": "^13.0.0"
+  }
+}
